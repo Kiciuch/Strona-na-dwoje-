@@ -185,9 +185,10 @@ session_start();
 									<select class="input-select">
 										<option value="0">Kategorie</option>
 										<option value="1">Dla niego</option>
-										<option value="1">Dla niej </option>
+										<option value="1">Elektronika</option>
+                    <option value="1">Meble </option>
 									</select>
-									<input class="input" id="search" type="text" placeholder="Search here">
+									<input class="input" id="search" type="text" placeholder="Wpisz poszukiwany produkt">
 									<button type="submit" id="search_btn" class="search-btn">Wyszukaj</button>
 								</form>
 							</div>
@@ -213,7 +214,7 @@ session_start();
 										</div>
 										
 										<div class="cart-btns">
-												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  edit cart</a>
+												<a href="cart.php" style="width:100%;"><i class="fa fa-edit"></i>  Przejdź do koszyka</a>
 											
 										</div>
 									</div>
